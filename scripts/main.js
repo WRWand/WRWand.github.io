@@ -22,7 +22,7 @@ function setUserName() {
       setUserName();
     } else {
       localStorage.setItem("name", myName);
-      myHeading.textContent = `Mozilla é legal, ${myName}`;
+      myHeading.textContent = `É Um Prazer Te Receber Aqui, ${myName}`;
     }
   }
  
@@ -30,7 +30,7 @@ function setUserName() {
     setUserName();
   } else {
     let storedName = localStorage.getItem('name');
-    myHeading.innerHTML = 'Mozilla is cool, ' + storedName;
+    myHeading.innerHTML = 'É Um Prazer Te Receber Aqui, ' + storedName;
   }
   
   myButton.onclick = function() {

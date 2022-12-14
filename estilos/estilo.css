@@ -53,4 +53,14 @@ a {
     line-height: 10;
 }
 
+
+button {
+    background-color: blue;
+    font-size: 18px;
+    color: beige;
+    padding: 8px 8px 8px 8px;
+    border-radius: 30px;
+    width: 200px;
+    margin-left: 100px;
+}
   
